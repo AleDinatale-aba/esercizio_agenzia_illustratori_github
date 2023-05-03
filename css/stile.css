@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: #FFF7CC;
+    font-family: "Gotu";
+}
+@font-face {
+    font-family: "Gotu";
+    src: url(/font/Gotu-Regular.ttf);
+    font-style: normal;
+    font-size: small;
+}
+a{
+    
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline #FF006B 2px;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+}
+main a:hover{
+    color: #FFD600;
+    text-decoration: underline #FF006B 1px;
+}
+img:hover{
+    color: #FF006B ;
+    border: 2px solid ;
+}
+
+
+header {
+    padding: 0 25px;
+    background-color: #00D1FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    
+}
+header h1{
+    height: 20px;
+}
+.ricerca{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 50px;
+}
+h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+main p{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px 0;
+    background: #007D99;
+    border-radius: 75px;
+    
+}
+#titolo{
+    font-size: 60px;
+    padding: 200px 0 150px;
+}
+
+
+.card {
+    
+    display: flex;
+    justify-content: center;
+    /*
+    flex-direction: column; ------- per il @media, e poi togliere il rettangolo
+
+    */
+   
+}
+
+
+
+
+
+/*
+#rect{
+    width: auto;
+    height: 350px ;
+    background: rgba(105, 228, 255, 0.5);
+    z-index:-1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30%;
+    
+}
+
+*/
+
+
+
+
+
+
+.illustratore{
+    padding: 20px;
+}
+
+@media (max-width:747px){
+    #rect{
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media (min-width:600px){
+    #rect{
+        background: rgb(255,247,204);
+        background: linear-gradient(0deg,
+          rgba(255,247,204,1) 30%,
+          rgba(105,228,255,0.5) 30%,
+          rgba(105,228,255,0.5) 85%,
+          rgba(255,247,204,1) 85%);
+        margin-bottom: 150px;
+        align-items: center;
+           
+    }
+
+}
+
+
+
+@media (max-width:600px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    img{
+    
+        justify-items: center;
+        align-items: center;
+    }
+    #titolo{
+        font-size: 40px;
+        padding: 200px 0 150px;
+    }
+    
+    /*
+    .illustratore img{
+        align-items: center;
+    }
+    */
+
+    .illustratore{
+            padding: 0 100px;
+            background: rgb(255,247,204);
+            background: linear-gradient(0deg,
+              rgba(255,247,204,1) 0%,
+              rgba(105,228,255,0.5) 0%,
+              rgba(105,228,255,0.5) 70%,
+              rgba(255,247,204,1) 70%);
+            margin-bottom: 150px;
+            align-items: center;
+                          
+        
+    }
+    footer p{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:480px){
+    footer p{
+        font-size: 9px;
+    }
+
+
+}
+
+
+img{
+    max-width: 100%; 
+    object-fit:cover ;
+    margin: 0;
+    display: flex;
+    
+}
+
+footer {
+    align-content: flex-end;
+    text-align: center;
+    padding: 60px;
+}
+
+.footer  {
+    text-decoration: none;
+    border-top:2px solid  hsla(190, 100%, 15%, 1);
+    margin: 0;
+    padding: 20px 0;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
