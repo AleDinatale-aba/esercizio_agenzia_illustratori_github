@@ -1,13 +1,16 @@
 body{
     margin: 0;
     background-color: #FFF7CC;
-    font-family: "Gotu", sans-serif;
+    font-family: "Gotu";
 }
 @font-face {
     font-family: "Gotu";
     src: url(font/gotu-regular.ttf);
     font-style: normal;
     font-size: small;
+}
+h1,h2,p{
+    font-family: "Gotu";
 }
 a{
     
