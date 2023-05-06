@@ -6,7 +6,7 @@ body{
 
 @font-face {
     font-family: "Gotu";
-    src: url(font/gotu-regular.ttf);
+    src: url(../font/gotu-regular.ttf);
     font-style: normal;
     font-size: small;
 }
