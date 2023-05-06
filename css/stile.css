@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: #FFF7CC;
-    font-family: "Gotu";
+    font-family: "Gotu", sans-serif;
 }
 @font-face {
     font-family: "Gotu";
